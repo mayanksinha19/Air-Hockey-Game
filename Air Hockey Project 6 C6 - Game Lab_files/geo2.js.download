@@ -1,0 +1,16 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "BHOPAL",
+      'continent': "AS",
+      'country': "IN",
+      'region': "MP"
+    },
+    'ip':"171.61.218.201"
+  }]);
+})
+//
+()
+
+;
